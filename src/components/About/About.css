@@ -1,0 +1,90 @@
+
+
+.about-section {
+    padding: 40px 10%;
+    background-color: #f8f8f8; 
+    margin-top: 30px; 
+}
+
+.about-title {
+    text-align: center; 
+    font-size: 2.5em; 
+    color: #333; 
+    margin-bottom: 40px; 
+}
+
+.about-container {
+    display: flex; 
+    flex-direction: row; 
+    max-width: 1500px; 
+    margin-left: 0; 
+    
+}
+
+.about-image {
+    width: 40%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-right: 20px; 
+}
+
+.about-text {
+    width: 60%; 
+}
+
+.about-text h2 {
+    font-size: 1.5em; 
+    color: #bd5c5c; 
+    margin-bottom: 10px; 
+}
+
+.about-text p {
+    color: #666; 
+    line-height: 1.6; 
+}
+
+.stats-container {
+    margin-top: 30px; /* Equivalent to mt-16 */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive layout */
+    gap: 3rem; /* Equivalent to gap-8 */
+    text-align: center;
+}
+
+.stat-item {
+    padding: 40px;
+    gap: 50px;
+    border: 1px solid #959393;
+    border-radius: 8px;
+}
+
+.stat-number {
+    font-size: 2.5rem; /* Equivalent to text-5xl */
+    font-weight: bold; /* Equivalent to font-bold */
+    color: #1d4ed8; /* Example color for text-primary */
+    margin-bottom: 0.5rem; /* Equivalent to mb-2 */
+}
+
+.stat-description {
+    color: #7cf18c; /* Example color for text-muted-foreground */
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .about-image {
+        width: 100%; /* Image takes full width */
+        margin-right: 0; /* Remove margin */
+        margin-bottom: 20px; /* Space below the image */
+    }
+
+    .about-text {
+        width: 100%; /* Text takes full width */
+        text-align: center; /* Center text on small screens */
+    }
+}

@@ -1,0 +1,58 @@
+.programs-section {
+    padding: 40px 10%;
+    background-color: hsl(0, 0%, 100%); 
+    margin-top: 30px; /* Space from top (e.g., navbar) */
+
+}
+
+.programs-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #333; 
+}
+
+.description {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #555; 
+}
+
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); 
+    gap: 30px; 
+}
+
+.program-card {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    text-align: center; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s; 
+}
+
+.program-card:hover {
+    transform: translateY(-5px); 
+}
+
+.program-image {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+}
+
+.program-card h3 {
+    margin: 0 0 10px 0; 
+    font-size: 1.5em; 
+    color: #333; 
+}
+
+.program-card p {
+    color: #666; 
+}
