@@ -6,6 +6,7 @@ import About from "../../components/About/About.jsx";
 import Program from "../../components/Program/Program.jsx";
 import Donation from "../../components/Donation/Donation.jsx";
 import Footer from '../../components/Footer/Footer.jsx';
+import Graduates from '../../components/Graduates/Graduates.jsx';
 
 const Home = () => {
     return (

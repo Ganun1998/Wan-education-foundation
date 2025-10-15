@@ -25,7 +25,7 @@ const About_us = () => {
           <div className='mission'>
             <FaFlag className='icon' />
             <h2>Our Mission</h2>
-            <p>To empower students through quality education and resources that foster personal growth and success.</p>
+            <p>Our mission is to create a positive impact in the community through a variety of innovative initiatives designed to empower individuals and foster a supportive environment.</p>
           </div>
           <div className='vision'>
             <FaEye className='icon' />
